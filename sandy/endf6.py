@@ -43,7 +43,7 @@ def get_endf6_file(library, kind, zam, to_file=False, local=False):
     ----------
     library : str
         Name of the nuclear data library. Valid options depend on the
-        requested `kind` and typically include:
+        requested `kind` and typically include :
         ``"endfb_71"``, ``"endfb_80"``, ``"endfb_81"``, ``"tendl_2023"``,
         ``"jeff_311"``, ``"jeff_33"``, ``"jeff_40"``, ``"jendl_40u"``,
         ``"jendl_5"``, ``"irdff_2"``, etc.
